@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Joyeux anniversaire</title>
+    <meta
+      name="description"
+      content="Une galerie photo souvenir pour un anniversaire."
+    >
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__media" aria-hidden="true">
+        <img src="photos/photo-01.jpg" alt="">
+      </div>
+      <div class="hero__content">
+        <p class="eyebrow">Album souvenir</p>
+        <h1>Joyeux anniversaire</h1>
+        <p class="intro">
+          Quelques photos, beaucoup de souvenirs, et une page &agrave; ouvrir depuis
+          un QR code pour revivre la f&ecirc;te.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="message" aria-labelledby="message-title">
+        <div>
+          <p class="eyebrow">Pour toi</p>
+          <h2 id="message-title">Une journ&eacute;e &agrave; garder pr&egrave;s du coeur</h2>
+        </div>
+        <p>
+          Joyeux anniversaire !
+        </p>
+      </section>
+
+      <section class="gallery-section" aria-labelledby="gallery-title">
+        <div class="section-heading">
+          <p class="eyebrow">Photos</p>
+          <h2 id="gallery-title">Les moments de la f&ecirc;te</h2>
+        </div>
+
+        <div class="gallery" id="gallery">
+          <a class="photo-card" href="photos/photo-01.jpg">
+            <img src="photos/photo-01.jpg" alt="Souvenir d'anniversaire 1">
+          </a>
+          <a class="photo-card" href="photos/photo-02.jpg">
+            <img src="photos/photo-02.jpg" alt="Souvenir d'anniversaire 2">
+          </a>
+          <a class="photo-card" href="photos/photo-03.jpg">
+            <img src="photos/photo-03.jpg" alt="Souvenir d'anniversaire 3">
+          </a>
+          <a class="photo-card" href="photos/photo-04.jpg">
+            <img src="photos/photo-04.jpg" alt="Souvenir d'anniversaire 4">
+          </a>
+          <a class="photo-card" href="photos/photo-05.jpg">
+            <img src="photos/photo-05.jpg" alt="Souvenir d'anniversaire 5">
+          </a>
+          <a class="photo-card" href="photos/photo-06.jpg">
+            <img src="photos/photo-06.jpg" alt="Souvenir d'anniversaire 6">
+          </a>
+          <a class="photo-card" href="photos/photo-07.jpg">
+            <img src="photos/photo-07.jpg" alt="Souvenir d'anniversaire 7">
+          </a>
+          <a class="photo-card" href="photos/photo-08.jpg">
+            <img src="photos/photo-08.jpg" alt="Souvenir d'anniversaire 8">
+          </a>
+          <a class="photo-card" href="photos/photo-09.jpg">
+            <img src="photos/photo-09.jpg" alt="Souvenir d'anniversaire 9">
+          </a>
+          <a class="photo-card" href="photos/photo-10.jpg">
+            <img src="photos/photo-10.jpg" alt="Souvenir d'anniversaire 10">
+          </a>
+          <a class="photo-card" href="photos/photo-11.jpg">
+            <img src="photos/photo-11.jpg" alt="Souvenir d'anniversaire 11">
+          </a>
+          <a class="photo-card" href="photos/photo-12.jpg">
+            <img src="photos/photo-12.jpg" alt="Souvenir d'anniversaire 12">
+          </a>
+        </div>
+
+        <p class="empty-state" id="empty-state">
+          Les photos arrivent bient&ocirc;t.
+        </p>
+      </section>
+    </main>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo agrandie">
+      <button class="lightbox__close" type="button" aria-label="Fermer">&times;</button>
+      <img src="" alt="">
+    </div>
+
+    <footer>
+      <p>Fait avec amour pour une journ&eacute;e inoubliable.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
